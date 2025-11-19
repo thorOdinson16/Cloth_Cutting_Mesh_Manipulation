@@ -7,7 +7,7 @@ Each version represents a step toward a fully functional, topologically correct,
 
 ---
 
-# 📁 **Repository Structure**
+# **Repository Structure**
 
 ```
 /cloth-cutting-project
@@ -15,7 +15,7 @@ Each version represents a step toward a fully functional, topologically correct,
 ├── cloth_sim_basic_spring_cut.cpp
 ├── cloth_cutting_full_mesh_split.cpp
 ├── cloth_cutting_experimental_halfedge.cpp
-└── cloth_cutting_debug_version.cpp
+└── cloth_cutting_debug_version_of_full_mesh_and_halfedge.cpp
 └── README.md
 ```
 
@@ -100,7 +100,7 @@ Research version, not final.
 
 ---
 
-## **4. cloth_cutting_debug_version.cpp**
+## **4. cloth_cutting_debug_version_of_full_mesh_and_halfedge.cpp**
 
 A **diagnostic build** used during development.
 
