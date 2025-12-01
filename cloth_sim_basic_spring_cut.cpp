@@ -70,7 +70,7 @@ void initCloth() {
             V.p = Vec3((i * spacing) - half, ((N - 1 - j) * spacing) - 0.6f, 0.0f); // hang below origin
             V.v = Vec3(0, 0, 0);
             V.mass = 0.05f;
-            V.fixed = (j == 0 && (i == 0 || i == N - 1)); // fix top corners
+            V.fixed = (j == 0); // fix top corners
             verts.push_back(V);
         }
     }
@@ -280,4 +280,5 @@ int main(int argc, char** argv) {
     printf("Left-drag to cut springs. Press R to reset.\n");
     glutMainLoop();
     return 0;
+
 }
