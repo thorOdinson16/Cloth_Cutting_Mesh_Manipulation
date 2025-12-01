@@ -649,4 +649,5 @@ int main(int argc, char** argv) {
     printf("  R = Reset\n\n");
     glutMainLoop();
     return 0;
-}p
+
+}
